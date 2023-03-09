@@ -11,7 +11,7 @@ public class Day {
         this.year=yaer;
         initialize();
     }
-    
+
     //creates an empty day with no scheduled events
     private initialize(){
         for(int i=0;i<24; i++){
