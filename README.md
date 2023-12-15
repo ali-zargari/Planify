@@ -51,7 +51,7 @@ For support, questions, or more information, please [TBA].
 - **react**: A JavaScript library for creating user interfaces, a.k.a. view layer for web applications.
 - **react-dom**: This serves as the entry point to the DOM and server renderers for React.
 - **DevDependencies**:
--   \t**@types/react**: TypeScript definitions for React.
+-   \t **@types/react**: TypeScript definitions for React.
 -   **@types/react-dom**: TypeScript definitions for ReactDOM.
 -   **@vitejs/plugin-react**: Official React plugin for Vite.
 - **eslint**: Tool for identifying and reporting on patterns found in ECMAScript/JavaScript code.
