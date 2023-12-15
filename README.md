@@ -21,17 +21,17 @@ Planify is an AI-driven scheduling app that integrates various calendars into on
 
 TBA
 
-[Provide a brief tutorial or steps on how to use the app effectively]
+[Step by step tutorial]
 
 ## Contributing
 
-We welcome contributions to Planify! If you have suggestions or improvements, please [link to contribution guidelines].
+We welcome contributions to Planify! If you have suggestions or improvements, please [TBA].
 
 ## Support
 
-For support, questions, or more information, please [provide contact information or link to support resources].
+For support, questions, or more information, please [TBA].
 
 ## License
 
-[Information about the licensing of your app]
+[TBA]
 
