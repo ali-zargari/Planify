@@ -35,3 +35,27 @@ For support, questions, or more information, please [TBA].
 
 [TBA]
 
+
+
+
+
+
+#Libraries and dependencies:
+
+##Libraries:
+- **JavaScript (Programming Language)
+- **React (JavaScript Library for building User Interfaces)
+- **Vite (Build Tool)
+
+##Dependencies:
+- **react: A JavaScript library for creating user interfaces, a.k.a. view layer for web applications.
+- **react-dom: This serves as the entry point to the DOM and server renderers for React.
+- **DevDependencies:
+- **@types/react: TypeScript definitions for React.
+- **@types/react-dom: TypeScript definitions for ReactDOM.
+- **@vitejs/plugin-react: Official React plugin for Vite.
+- **eslint: Tool for identifying and reporting on patterns found in ECMAScript/JavaScript code.
+- **eslint-plugin-react: Specific plugin for Eslint with React syntax and rules.
+- **eslint-plugin-react-hooks: Eslint plugin to enforce the rules of hooks in React.
+- **eslint-plugin-react-refresh: Eslint plugin to automatically refresh React components during development.
+- **vite: front-end build tool.
