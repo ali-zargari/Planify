@@ -43,9 +43,9 @@ For support, questions, or more information, please [TBA].
 # Libraries and dependencies:
 
 ## Libraries:
-- **JavaScript (Programming Language)
-- **React (JavaScript Library for building User Interfaces)
-- **Vite (Build Tool)
+- **JavaScript** (Programming Language)
+- **React** (JavaScript Library for building User Interfaces)
+- **Vite** (Build Tool)
 
 ## Dependencies:
 - **react**: A JavaScript library for creating user interfaces, a.k.a. view layer for web applications.
