@@ -1,3 +1,4 @@
+
 Planify
 Overview
 Planify is an AI-driven scheduling app that integrates various calendars into one cohesive platform. It uses advanced algorithms to help users plan their weeks or months efficiently, based on their personal tasks and goals.
@@ -22,11 +23,4 @@ For support, questions, or more information, please [provide contact information
 
 License
 [Information about the licensing of your app]
-
-Customize each section to fit the specifics of Planify, and consider including screenshots or a brief video demo if possible. This will provide users with a clear understanding of what Planify offers and how to use it effectively.
-
-
-
-
-
 
