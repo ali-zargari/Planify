@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a778f6f3-ccb1-4885-bf5e-5ba2aaefb964" name="Changes" comment="Integrate eslint-config-prettier into project config files&#10;&#10;Integrates 'eslint-config-prettier' plugin in 'vite.config.js' and updates ESLint configuration in '.eslintrc.cjs'. Additionally, adds 'eslint-config-prettier' and 'prettier' to package dependencies. Also, includes semi-colons for better code readability across several files and creates '.prettyignore'.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;ali-zargari&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="94b9eab8-0ec2-4a3d-ad4a-a8fd1757fd27" />
+        <option name="url" value="https://github.com/ali-zargari/Odin-React.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2WVwUzgHdYumeG7SKc59R9xuZyM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/aliza/WebstormProjects/Odin-React&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager" selected="npm.dev">
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/my-first-react-app/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/my-first-react-app/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="server" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/my-first-react-app/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="server" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.dev" />
+        <item itemvalue="npm.server" />
+        <item itemvalue="npm.build" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a778f6f3-ccb1-4885-bf5e-5ba2aaefb964" name="Changes" comment="" />
+      <created>1696831075313</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1696831075313</updated>
+      <workItem from="1696831076483" duration="2353000" />
+      <workItem from="1696984758608" duration="1275000" />
+      <workItem from="1696989349398" duration="911000" />
+      <workItem from="1696990939653" duration="267000" />
+      <workItem from="1696991306277" duration="132000" />
+      <workItem from="1696991449126" duration="306000" />
+      <workItem from="1696991813565" duration="147000" />
+      <workItem from="1696991983367" duration="12000" />
+      <workItem from="1696992249086" duration="10000" />
+      <workItem from="1700190298113" duration="784000" />
+      <workItem from="1700379111549" duration="1000" />
+      <workItem from="1700456593661" duration="550000" />
+      <workItem from="1700580252600" duration="13000" />
+      <workItem from="1700902942925" duration="1000" />
+      <workItem from="1701057893889" duration="151000" />
+      <workItem from="1701058056365" duration="39000" />
+      <workItem from="1702668804452" duration="170000" />
+      <workItem from="1702669041372" duration="6027000" />
+    </task>
+    <task id="LOCAL-00001" summary="initial">
+      <option name="closed" value="true" />
+      <created>1696999307360</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1696999307360</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Update ESLint configuration and ESLint-related dependencies in React App&#10;&#10;Modified the ESLint configuration file in the React App. The changes include updating and adding more specific rules, adding some parserOptions and plugins. Updates have also been made to the ESLint-related dependencies in the package.json and package-lock.json files. Miscellaneous updates have been done in the .idea/workspace.xml file and small changes in components in the application.">
+      <option name="closed" value="true" />
+      <created>1702671539711</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1702671539711</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Integrate eslint-config-prettier into project config files&#10;&#10;Integrates 'eslint-config-prettier' plugin in 'vite.config.js' and updates ESLint configuration in '.eslintrc.cjs'. Additionally, adds 'eslint-config-prettier' and 'prettier' to package dependencies. Also, includes semi-colons for better code readability across several files and creates '.prettyignore'.">
+      <option name="closed" value="true" />
+      <created>1702674969638</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1702674969638</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial" />
+    <MESSAGE value="Update ESLint configuration and ESLint-related dependencies in React App&#10;&#10;Modified the ESLint configuration file in the React App. The changes include updating and adding more specific rules, adding some parserOptions and plugins. Updates have also been made to the ESLint-related dependencies in the package.json and package-lock.json files. Miscellaneous updates have been done in the .idea/workspace.xml file and small changes in components in the application." />
+    <MESSAGE value="Integrate eslint-config-prettier into project config files&#10;&#10;Integrates 'eslint-config-prettier' plugin in 'vite.config.js' and updates ESLint configuration in '.eslintrc.cjs'. Additionally, adds 'eslint-config-prettier' and 'prettier' to package dependencies. Also, includes semi-colons for better code readability across several files and creates '.prettyignore'." />
+    <option name="LAST_COMMIT_MESSAGE" value="Integrate eslint-config-prettier into project config files&#10;&#10;Integrates 'eslint-config-prettier' plugin in 'vite.config.js' and updates ESLint configuration in '.eslintrc.cjs'. Additionally, adds 'eslint-config-prettier' and 'prettier' to package dependencies. Also, includes semi-colons for better code readability across several files and creates '.prettyignore'." />
+  </component>
+</project>
