@@ -7,7 +7,11 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "build:webpack": "webpack",
+    "watch:webpack": "webpack --watch",
+    "start:webpack": "webpack serve --open",
+    "server:webpack": "node server.js"
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -28,6 +32,7 @@
     "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.3",
+    "html-webpack-plugin": "^5.5.4",
     "prettier": "3.1.1",
     "sass": "^1.69.5",
     "sass-loader": "^13.3.2",
