@@ -4,18 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a778f6f3-ccb1-4885-bf5e-5ba2aaefb964" name="Changes" comment="Reconfigure scripts and change components for webpack setup&#10;&#10;Readjusts the scripts in package.json to allow webpack operations. Adjustment of the script source link in the index.html file.">
-      <change afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
+    <list default="true" id="a778f6f3-ccb1-4885-bf5e-5ba2aaefb964" name="Changes" comment="Refactor project structure for webpack and express integration&#10;&#10;This commit does several changes related to the webpack and express setup. It updates `package.json` to include new dependencies such as express and webpack-dev-server. It also modifies several configuration files (`vite.config.js`, `webpack.config.js`) to properly configure the build process. The location of several files, such as `index.html` and `App.jsx`, is also rearranged to streamline the project structure. Additionally, a new `server.js` file is added for the express server configuration.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/react.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/icons/react.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vite.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/vite.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,11 +78,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\aliza\WebstormProjects\Planify" />
+      <recent name="C:\Users\aliza\WebstormProjects\Planify\config" />
       <recent name="C:\Users\aliza\WebstormProjects\Planify\src\components\App" />
       <recent name="C:\Users\aliza\WebstormProjects\Planify\src\assets\icons" />
       <recent name="C:\Users\aliza\WebstormProjects\Planify\src" />
-      <recent name="C:\Users\aliza\WebstormProjects\Planify\public" />
-      <recent name="C:\Users\aliza\WebstormProjects\Planify" />
     </key>
   </component>
   <component name="RunManager" selected="npm.server:webpack">
@@ -182,7 +174,7 @@
       <workItem from="1702669041372" duration="6027000" />
       <workItem from="1702704794585" duration="429000" />
       <workItem from="1702705287139" duration="3856000" />
-      <workItem from="1702764229946" duration="3929000" />
+      <workItem from="1702764229946" duration="5084000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <option name="closed" value="true" />
@@ -224,7 +216,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702765121625</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Refactor project structure for webpack and express integration&#10;&#10;This commit does several changes related to the webpack and express setup. It updates `package.json` to include new dependencies such as express and webpack-dev-server. It also modifies several configuration files (`vite.config.js`, `webpack.config.js`) to properly configure the build process. The location of several files, such as `index.html` and `App.jsx`, is also rearranged to streamline the project structure. Additionally, a new `server.js` file is added for the express server configuration.">
+      <option name="closed" value="true" />
+      <created>1702768376499</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1702768376499</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -248,6 +248,7 @@
     <MESSAGE value="Integrate eslint-config-prettier into project config files&#10;&#10;Integrates 'eslint-config-prettier' plugin in 'vite.config.js' and updates ESLint configuration in '.eslintrc.cjs'. Additionally, adds 'eslint-config-prettier' and 'prettier' to package dependencies. Also, includes semi-colons for better code readability across several files and creates '.prettyignore'." />
     <MESSAGE value="Added Babel&#10;Added webpack&#10;deleted redundant files&#10;Added more dependencies to set up dev environment" />
     <MESSAGE value="Reconfigure scripts and change components for webpack setup&#10;&#10;Readjusts the scripts in package.json to allow webpack operations. Adjustment of the script source link in the index.html file." />
-    <option name="LAST_COMMIT_MESSAGE" value="Reconfigure scripts and change components for webpack setup&#10;&#10;Readjusts the scripts in package.json to allow webpack operations. Adjustment of the script source link in the index.html file." />
+    <MESSAGE value="Refactor project structure for webpack and express integration&#10;&#10;This commit does several changes related to the webpack and express setup. It updates `package.json` to include new dependencies such as express and webpack-dev-server. It also modifies several configuration files (`vite.config.js`, `webpack.config.js`) to properly configure the build process. The location of several files, such as `index.html` and `App.jsx`, is also rearranged to streamline the project structure. Additionally, a new `server.js` file is added for the express server configuration." />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor project structure for webpack and express integration&#10;&#10;This commit does several changes related to the webpack and express setup. It updates `package.json` to include new dependencies such as express and webpack-dev-server. It also modifies several configuration files (`vite.config.js`, `webpack.config.js`) to properly configure the build process. The location of several files, such as `index.html` and `App.jsx`, is also rearranged to streamline the project structure. Additionally, a new `server.js` file is added for the express server configuration." />
   </component>
 </project>
