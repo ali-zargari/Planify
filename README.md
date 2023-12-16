@@ -25,37 +25,34 @@ TBA
 
 ## Contributing
 
-We welcome contributions to Planify! If you have suggestions or improvements, please [TBA].
+[TBA].
 
 ## Support
 
-For support, questions, or more information, please [TBA].
+[TBA].
 
 ## License
 
 [TBA]
 
+---
 
-
-
-
-
-# Libraries and dependencies:
+# Libraries and Dependencies
 
 ## Libraries:
-- **JavaScript** (Programming Language)
-- **React** (JavaScript Library for building User Interfaces)
-- **Vite** (Build Tool)
+- **JavaScript**: Programming Language
+- **React**: JavaScript Library for building User Interfaces
+- **Vite**: Build Tool
 
 ## Dependencies:
-- **react**: A JavaScript library for creating user interfaces, a.k.a. view layer for web applications.
-- **react-dom**: This serves as the entry point to the DOM and server renderers for React.
+- **react**: A JavaScript library for creating user interfaces.
+- **react-dom**: Provides DOM-specific methods that can be used at the top level of a web app.
 - **DevDependencies**:
   - **@types/react**: TypeScript definitions for React.
   - **@types/react-dom**: TypeScript definitions for ReactDOM.
   - **@vitejs/plugin-react**: Official React plugin for Vite.
-- **eslint**: Tool for identifying and reporting on patterns found in ECMAScript/JavaScript code.
-- **eslint-plugin-react**: Specific plugin for Eslint with React syntax and rules.
-- **eslint-plugin-react-hooks**: Eslint plugin to enforce the rules of hooks in React.
-- **eslint-plugin-react-refresh**: Eslint plugin to automatically refresh React components during development.
-- **vite**: front-end build tool.
+- **eslint**: Identifies and reports on patterns found in ECMAScript/JavaScript code.
+- **eslint-plugin-react**: Eslint plugin with React syntax and rules.
+- **eslint-plugin-react-hooks**: Enforces the rules of hooks in React.
+- **eslint-plugin-react-refresh**: Automatically refreshes React components during development.
+- **vite**: Front-end build tool.
