@@ -25,7 +25,7 @@ TBA
 
 ## Contributing
 
-We welcome contributions to Planify! If you have suggestions or improvements, please [TBA].
+[TBA].
 
 ## Support
 
