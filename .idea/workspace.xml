@@ -4,17 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a778f6f3-ccb1-4885-bf5e-5ba2aaefb964" name="Changes" comment="Added Babel&#10;Added webpack&#10;deleted redundant files&#10;Added more dependencies to set up dev environment">
+    <list default="true" id="a778f6f3-ccb1-4885-bf5e-5ba2aaefb964" name="Changes" comment="Reconfigure scripts and change components for webpack setup&#10;&#10;Readjusts the scripts in package.json to allow webpack operations. Adjustment of the script source link in the index.html file.">
+      <change afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/react.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/icons/react.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/vite.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -64,26 +77,23 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "npm.build:webpack.executor": "Run",
-    "settings.editor.selected.configurable": "ml.llm.LLMConfigurable",
+    "npm.server:webpack.executor": "Run",
+    "npm.start:webpack.executor": "Run",
+    "settings.editor.selected.configurable": "ml.llm.AIAssistantPromptsLibrary",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2023.2.5\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\aliza\WebstormProjects\Planify\src\components\App" />
+      <recent name="C:\Users\aliza\WebstormProjects\Planify\src\assets\icons" />
       <recent name="C:\Users\aliza\WebstormProjects\Planify\src" />
+      <recent name="C:\Users\aliza\WebstormProjects\Planify\public" />
+      <recent name="C:\Users\aliza\WebstormProjects\Planify" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.build:webpack">
-    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/my-first-react-app/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="build" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="npm.server:webpack">
     <configuration name="build:webpack" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -114,12 +124,33 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="server:webpack" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="server:webpack" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start:webpack" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start:webpack" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.server:webpack" />
+        <item itemvalue="npm.start:webpack" />
         <item itemvalue="npm.build:webpack" />
         <item itemvalue="npm.dev" />
         <item itemvalue="npm.server" />
-        <item itemvalue="npm.build" />
       </list>
     </recent_temporary>
   </component>
@@ -151,7 +182,7 @@
       <workItem from="1702669041372" duration="6027000" />
       <workItem from="1702704794585" duration="429000" />
       <workItem from="1702705287139" duration="3856000" />
-      <workItem from="1702764229946" duration="705000" />
+      <workItem from="1702764229946" duration="3929000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <option name="closed" value="true" />
@@ -185,7 +216,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702708543836</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Reconfigure scripts and change components for webpack setup&#10;&#10;Readjusts the scripts in package.json to allow webpack operations. Adjustment of the script source link in the index.html file.">
+      <option name="closed" value="true" />
+      <created>1702765121625</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1702765121625</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,6 +247,7 @@
     <MESSAGE value="Update ESLint configuration and ESLint-related dependencies in React App&#10;&#10;Modified the ESLint configuration file in the React App. The changes include updating and adding more specific rules, adding some parserOptions and plugins. Updates have also been made to the ESLint-related dependencies in the package.json and package-lock.json files. Miscellaneous updates have been done in the .idea/workspace.xml file and small changes in components in the application." />
     <MESSAGE value="Integrate eslint-config-prettier into project config files&#10;&#10;Integrates 'eslint-config-prettier' plugin in 'vite.config.js' and updates ESLint configuration in '.eslintrc.cjs'. Additionally, adds 'eslint-config-prettier' and 'prettier' to package dependencies. Also, includes semi-colons for better code readability across several files and creates '.prettyignore'." />
     <MESSAGE value="Added Babel&#10;Added webpack&#10;deleted redundant files&#10;Added more dependencies to set up dev environment" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Babel&#10;Added webpack&#10;deleted redundant files&#10;Added more dependencies to set up dev environment" />
+    <MESSAGE value="Reconfigure scripts and change components for webpack setup&#10;&#10;Readjusts the scripts in package.json to allow webpack operations. Adjustment of the script source link in the index.html file." />
+    <option name="LAST_COMMIT_MESSAGE" value="Reconfigure scripts and change components for webpack setup&#10;&#10;Readjusts the scripts in package.json to allow webpack operations. Adjustment of the script source link in the index.html file." />
   </component>
 </project>

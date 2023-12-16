@@ -7,4 +7,10 @@ import eslintConfigPrettier from "eslint-config-prettier";
 export default defineConfig({
   plugins: [react()],
   eslintConfigPrettier,
+  build: {
+    outDir: './dist',
+    rollupOptions: {
+      input: 'public/index.html'
+    }
+  }
 });

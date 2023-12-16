@@ -16,7 +16,8 @@ export default {
     devServer: {
         historyApiFallback: true,
         contentBase: './',
-        hot: true
+        hot: true,
+        //static: './dist'
     },
     module: {
         rules: [
@@ -47,4 +48,7 @@ export default {
             template: path.resolve(__dirname, 'src', 'index.html'),
         }),
     ],
+    optimization: {
+        runtimeChunk: 'single',
+    },
 };
