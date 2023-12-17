@@ -7,17 +7,19 @@ const __dirname = path.dirname(__filename);
 
 export default {
     mode: 'development',
-    entry: './src/First.jsx',
+    entry: './src/main.jsx',
     output: {
         path: path.resolve(__dirname, 'dist'),
-        filename: 'bundle.jsx',
+        filename: '[name].[contenthash].bundle.js',
         publicPath: '/',
     },
     devServer: {
         historyApiFallback: true,
-        contentBase: './',
+        //contentBase: './',
         hot: true,
-        //static: './dist'
+        static: {
+            directory: path.join(__dirname, 'public'),
+        },
     },
     module: {
         rules: [
@@ -27,7 +29,7 @@ export default {
                 use: ['babel-loader'],
             },
             {
-                test: /\.scss$/,
+                test: /\.(scss|css)$/,
                 use: [
                     'style-loader',
                     'css-loader',
@@ -35,7 +37,7 @@ export default {
                 ],
             },
             {
-                test: /\.(jpg|jpeg|png|gif|mp3|svg)$/,
+                test: /\.(jpg|jpeg|png|gif|mp3|svg)$/i,
                 use: ['file-loader']
             },
         ],
@@ -45,8 +47,9 @@ export default {
     },
     plugins: [
         new HtmlWebpackPlugin({
-            template: path.resolve(__dirname, 'src', 'index.html'),
+            template: path.resolve(__dirname, 'index.html'),
         }),
+
     ],
     optimization: {
         runtimeChunk: 'single',
